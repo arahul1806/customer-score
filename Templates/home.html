@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Customer Score Prediction
+
+    <form action = '/pred', method = 'POST'>
+        <br>
+
+        CustomerID = <input type="text" name="CustomerID"> <br>
+        <br>
+
+        <label for="Genre">Genre:</label>
+        <select name="Genre" required>
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select><br>
+        <br>
+
+        Age = <input type="text" name="Age"> <br>
+        <br>
+
+        Annual_Income =  <input type="text" name="Annual_Income"> <br>
+        <br>
+
+        <input type = 'SUBMIT'>  
+    </form>
+</body>
+</html>
